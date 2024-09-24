@@ -1,69 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins' ;
+    font-family: 'Poppins', sans-serif;
 }
-header{
+
+header {
     background-color: #101026;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     color: #000;
     text-decoration: none;
 }
-.logo{
+
+.logo {
     color: #fff;
     text-decoration: none;
 }
-.nav-link{
+
+.nav-link {
     color: #fff;
     text-decoration: none;
 }
-.navbar{
+
+.navbar {
     min-height: 70px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 0 34px;
 }
-.logo{
+
+.logo {
     font-size: 2rem;
     font-weight: bold;
 }
-.nav-menu{
-    display:flex;
+
+.nav-menu {
+    display: flex;
     align-items: center;
     gap: 70px;
     margin-right: 100px;
 }
-.nav-link{
+
+.nav-link {
     transition: 0.5s ease;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #0088d2;
 }
-body{
+
+body {
     background-color: #101026;
 }
-.titulo{
-    font-family: 'poppins';
-    font-size:xx-large;
+
+.titulo {
+    font-family: 'Poppins';
+    font-size: xx-large;
     color: #fff;
     margin-top: 200px;
     box-sizing: border-box;
     margin-left: 150px;
     height: 500px;
 }
-.subtitulo{
+
+.subtitulo {
     font-weight: lighter;
     margin-bottom: 50%;
 }
-footer{
+
+footer {
     width: 100%;
     color: white;
     align-items: center;
@@ -72,73 +86,79 @@ footer{
     display: inline-block;
     padding: 50px;
 }
-main{
+
+main {
     height: 61vh;
 }
-#footer-contacts{
-    display:flex;
+
+#footer-contacts {
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     gap: 1.5rem;
 }
-#input-group{
+
+#input-group {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     margin-right: 50px;
 }
-#logo{
+
+#logo {
     display: flex;
     flex-direction: row;
 }
 
-#input-group input{
+#input-group input {
     width: 100%;
     align-items: center;
     justify-content: space-between;
     border: 1px solid white;
     border-radius: 5px;
-    background-color:#101026;
+    background-color: #101026;
     box-sizing: border-box;
     padding-right: 10px;
     font-size: 1em;
 }
-#input-group button{
+
+#input-group button {
     background-color: #101026;
     color: white;
-    size:10px;
+    size: 10px;
 }
 
-.area1{
+.area1 {
     visibility: hidden;
 }
 
-.texto-footer{
+.texto-footer {
     display: flex;
     flex-direction: column;
     font-size: 20px;
 }
 
-#email{
+#email {
     padding: 10px;
     color: white;
     box-sizing: border-box;
     padding-right: 300px;
     width: 300px;
 }
-textarea:focus, input:focus{
+
+textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
     resize: horizontal;
     box-sizing: border-box;
 }
 
-button{
-    border: none
+button {
+    border: none;
 }
 
-#input-group span{
+#input-group span {
     position: absolute;
     left: 100;
     padding: 10px;
@@ -149,28 +169,27 @@ button{
 
 #input-group input:valid ~ span,
 #input-group input:focus ~ span {
-    color:#00dfc4;
+    color: #00dfc4;
     transform: translateX(10px) translateY(-20px);
     font-size: 0.85em;
-    background:#101026;
-    display: -webkit-flex;
+    background: #101026;
     display: flex;
 }
 
-.area2{
+.area2 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-right: 50px;
-    font-family: 'poppins';
-    font-size:xx-large;
+    font-family: 'Poppins';
+    font-size: xx-large;
     color: #fff;
     margin-left: 70px;
 }
 
-.container{
+.container {
     color: white;
     display: flex;
     flex-direction: row;
@@ -179,21 +198,24 @@ button{
     justify-content: space-around;
 }
 
-h3{
+h3 {
     text-align: center;
 }
-p{
+
+p {
     text-align: center;
     margin-bottom: 10px;
 }
-.imagem{
+
+.imagem {
     margin-left: 172px;
 }
-#logo{
+
+#logo {
     margin-right: 100px;
 }
 
-.confira{
+.confira {
     width: 320px;
     height: 55px;
     display: block;
@@ -205,15 +227,117 @@ p{
     font-size: 20px;
     box-shadow: #101026;
     transition: transform 200ms ease-in-out;
-    color: #0000;
+    color: #000;
     cursor: pointer;
 }
 
-#botao{
-    font: #0000;
+#botao {
+    font: #000;
 }
 
-.confira:hover{
+.confira:hover {
     transform: scale(0.95);
     background-color: #289fa1;
+}
+
+/* Media Queries para tornar responsivo */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .nav-menu {
+        margin-right: 0;
+        gap: 30px;
+    }
+
+    .titulo {
+        margin-left: 50px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagem {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: large;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .confira {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    #email {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .titulo {
+        margin-top: 100px;
+        margin-left: 0;
+        font-size: medium;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagem {
+        margin-left: 0;
+        width: 100px;
+        height: auto;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .confira {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #input-group {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #input-group input {
+        width: 100%;
+    }
+
+    #input-group button {
+        width: 100%;
+    }
 }
