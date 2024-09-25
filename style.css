@@ -291,6 +291,18 @@ p {
     #email {
         width: 100%;
     }
+
+    .mim {
+        flex-direction: column; /* Altera a direção para coluna em dispositivos móveis */
+    }
+
+    .perfil {
+        order: 1; /* Coloca a seção de perfil primeiro */
+    }
+
+    .texto {
+        order: 2; /* Coloca a seção de texto em segundo lugar */
+    }
 }
 
 @media (max-width: 480px) {
@@ -344,25 +356,24 @@ p {
     }
 }
 
-#seta{
+#seta {
     display: flex;
     justify-content: center;
 }
 
-#seta > img{
+#seta > img {
     width: 3%;
     height: 3%;
-    animation: jumping is linear infinite;
+    animation: jumping 0.8s ease-in-out infinite; 
     cursor: pointer;
 }
 
-@keyframes jumping{
-    from {transform: translateY(-15px);}
-    50% {transform: translateY(0);}
-    to {transform: translateY(-15px);}
+@keyframes jumping {
+    0%, 100% { transform: translateY(-15px); }
+    50% { transform: translateY(0); }
 }
 
-.sobre > h1{
+.sobre > h1 {
     display: flex;
     justify-content: center;
     color: #fff;
@@ -370,7 +381,7 @@ p {
     margin-top: 200px;
 }
 
-.texto > p{
+.texto > p {
     color: #fff;
     font-size: 20px;
     width: 1000px;
@@ -380,15 +391,16 @@ p {
     margin-right: 100px;
 }
 
-.mim{
+.mim {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
 }
 
-.perfil > img{
+.perfil > img {
     width: 500px;
     padding: 50px;
     margin-left: 200px;
+    border-radius: 50%;
 }
