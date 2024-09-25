@@ -321,7 +321,8 @@ p {
     }
 
     footer {
-        padding: 20px;
+        padding: 200px;
+        margin-top: 200px;
     }
 
     .confira {
@@ -359,4 +360,35 @@ p {
     from {transform: translateY(-15px);}
     50% {transform: translateY(0);}
     to {transform: translateY(-15px);}
+}
+
+.sobre > h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.texto > p{
+    color: #fff;
+    font-size: 20px;
+    width: 1000px;
+    height: 500px;
+    padding: 100px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.mim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.perfil > img{
+    width: 500px;
+    padding: 50px;
+    margin-left: 200px;
 }
