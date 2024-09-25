@@ -410,3 +410,8 @@ p {
     border-radius: 50%;
 }
 
+@media (min-width: 1920px) and (max-width: 1920px) {
+    .texto > p{
+        font-size: 25px;
+    }
+}
