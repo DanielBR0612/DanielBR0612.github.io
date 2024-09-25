@@ -28,18 +28,13 @@ O site é construído utilizando HTML, CSS e JavaScript, oferecendo uma interfac
 
 Se você deseja rodar o site localmente, siga os passos:
 
-Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/DanielBR0612/DanielBR0612.github.io.git
-Navegue até o diretório do projeto:
-bash
-Copiar código
-cd DanielBR0612.github.io
-Abra o arquivo index.html no navegador.
-🔧 Configuração do GitHub Pages
-O site é publicado automaticamente via GitHub Pages. O repositório segue a convenção de nomeação obrigatória para sites de usuário: username.github.io. Para saber mais sobre como configurar o GitHub Pages, consulte a documentação oficial​(
-GitHub Docs
-)​(
-GitHub Pages
-).
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/DanielBR0612/DanielBR0612.github.io.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd DanielBR0612.github.io
+3. Abra o arquivo `index.html` no navegador.
+
+   - Navegue até a pasta do projeto no seu computador.
+   - Dê um duplo clique no arquivo `index.html` ou abra-o diretamente pelo navegador de sua escolha.
