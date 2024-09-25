@@ -21,17 +21,30 @@ GitHub Pages para hospedagem
 Se você deseja rodar o site localmente, siga os passos:
 
 Clone o repositório:
+
 bash
+
 Copiar código
+
 git clone https://github.com/DanielBR0612/DanielBR0612.github.io.git
+
 Navegue até o diretório do projeto:
+
 bash
+
 Copiar código
+
 cd DanielBR0612.github.io
+
 Abra o arquivo index.html no navegador.
+
 🔧 Configuração do GitHub Pages
 O site é publicado automaticamente via GitHub Pages. O repositório segue a convenção de nomeação obrigatória para sites de usuário: username.github.io. Para saber mais sobre como configurar o GitHub Pages, consulte a documentação oficial​(
+
 GitHub Docs
+
 )​(
+
 GitHub Pages
+
 ).
