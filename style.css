@@ -423,4 +423,18 @@ p {
         margin-bottom: 1px;
         height: 350px;
     }
+    .perfil > img{
+        width: 80%;
+    }
+
+    .mim{
+        margin-right: 10%;
+    }
+
+    .texto > p{
+        font-size: 17px;
+        max-width: 2000px;
+        width: 100%;
+        margin-left: 20px;
+    }
 }
