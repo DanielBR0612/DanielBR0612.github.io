@@ -397,6 +397,8 @@ p {
 }
 
 @media (max-width: 480px) {
+
+    
     .navbar {
         padding: 0 10px;
     }
@@ -479,10 +481,17 @@ p {
     .javascript > svg{
         margin-left: 39%;
     }
-    
-}
+}    
 
 @media (max-width: 380px) {
+    body{
+        width: 275px;
+    }
+    
+    header{
+        width: 275px;
+    }
+
     .texto{
         align-self: flex-start;
         width: 100px;;
@@ -499,9 +508,14 @@ p {
     .navbar{
         width: 300px;
     }
+
+    .area1{
+        width: 275px;
+    }
     .area1 > h1{
-        width: 500px;
+        width: 275px;
         font-size: 21px;
+        align-items: start;
     }
     .navbar > a{
         font-size: 21px;
@@ -518,10 +532,7 @@ p {
         font-size: 20px;
     }
 
-    body{
-        width: 360px;
-    }
-
+}
 @media (max-width: 320px){
     .texto > p{
         font-size: 17px;
@@ -543,5 +554,3 @@ p {
         flex-direction: column;
     }
 }
-
-
