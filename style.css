@@ -482,7 +482,7 @@ p {
     
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     .texto{
         align-self: flex-start;
         width: 100px;;
