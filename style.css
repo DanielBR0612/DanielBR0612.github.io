@@ -242,122 +242,6 @@ p {
 }
 
 /* Media Queries para tornar responsivo */
-@media (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        padding: 0 20px;
-    }
-
-    .nav-menu {
-        margin-right: 0;
-        gap: 30px;
-    }
-
-    .titulo {
-        margin-left: 50px;
-    }
-
-    .container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .imagem {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 768px) {
-    .titulo {
-        font-size: large;
-        margin-left: 20px;
-        text-align: center;
-    }
-
-    .container {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .confira {
-        width: 100%;
-        max-width: 250px;
-    }
-
-
-    #email {
-        width: 100%;
-    }
-
-    .mim {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        height: 50%; /* Altera a direção para coluna em dispositivos móveis */
-    }
-
-    .perfil {
-        order: 1; /* Coloca a seção de perfil primeiro */
-    }
-
-    .texto {
-        order: 2; /* Coloca a seção de texto em segundo lugar */
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar {
-        padding: 0 10px;
-    }
-
-    .titulo {
-        margin-top: 100px;
-        margin-left: 0;
-        font-size: medium;
-    }
-
-    .nav-menu {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .imagem {
-        margin-left: 0;
-        width: 100px;
-        height: auto;
-    }
-
-
-    .confira {
-        width: 100%;
-        max-width: 200px;
-    }
-
-    #input-group {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    #input-group input {
-        width: 100%;
-    }
-
-    #input-group button {
-        width: 100%;
-    }
-
-    .mim {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        height: 50%;
-    }
-}
 
 #seta {
     display: flex;
@@ -437,4 +321,163 @@ p {
         width: 100%;
         margin-left: 20px;
     }
+    .html > img{
+        margin-left: 36%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .html > img{
+        margin-left: 35%;
+    }
+
+    .nav-menu {
+        margin-right: 0;
+        gap: 30px;
+    }
+
+    .titulo {
+        margin-left: 50px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagem {
+        margin-left: 0;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: large;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .confira {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    #email {
+        width: 100%;
+    }
+    .perfil {
+        order: 1; /* Coloca a seção de perfil primeiro */
+    }
+
+    .texto {
+        order: 2; /* Coloca a seção de texto em segundo lugar */
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .titulo {
+        margin-top: 100px;
+        margin-left: 0;
+        font-size: medium;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagem {
+        margin-left: 0;
+        width: 100px;
+        height: auto;
+    }
+
+
+    .confira {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #input-group {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #input-group input {
+        width: 100%;
+    }
+
+    #input-group button {
+        width: 100%;
+    }
+    .mim{
+        display: flex;
+        flex-direction: column;
+    }
+    .perfil > img{
+        width: 70%;
+        align-self: center;
+        margin-left: 23%;
+    }
+    .texto > p{
+        font-size: 16px;
+        width: 500px;
+        margin-bottom: 100px;
+    }
+    #footer-content{
+        margin-top: 500px;
+    }
+    .html > img{
+        margin-left: 39%;
+    }
+    .area1{
+        text-align: justify;
+        margin-left: 10%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .css > svg{
+        margin-left: 39%;
+    }
+    .javascript > svg{
+        margin-left: 39%;
+    }
+    
 }
