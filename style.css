@@ -481,3 +481,11 @@ p {
     }
     
 }
+
+@media (max-width: 360px) {
+    .texto > p{
+        font-size: 22px;
+        width: 490px;
+        text-align:start;
+    }
+}
