@@ -483,21 +483,64 @@ p {
 }
 
 @media (max-width: 360px) {
-    .texto > p{
-        font-size: 22px;
-        width: 490px;
-        text-align:center;
+    .texto{
+        align-self: flex-start;
+        width: 100px;;
     }
-}
+    .texto > p{
+        font-size: 12px;
+        width: 430px;
+        text-align: start;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 300px;
+    }
+    .area1 > h1{
+        width: 500px;
+        font-size: 21px;
+    }
+    .navbar > a{
+        font-size: 21px;
+    }
+    .area2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .container{
+        width: 350px;
+        font-size: 10px;
+    }
+    .sobre > h1{
+        font-size: 20px;
+    }
+
+    body{
+        width: 360px;
+    }
 
 @media (max-width: 320px){
     .texto > p{
         font-size: 17px;
         width: 435px;
         text-align: center;
+        margin-right: 200px;
+        align-self: flex-start;
     }
     .texto{
         width: 200px;
+        margin-right: 200px;
+    }
+    .subtitulo > h1{
+        text-align: center;
+    }
+
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
     }
 }
 
