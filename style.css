@@ -494,7 +494,9 @@ p {
     .texto > p{
         font-size: 17px;
         width: 435px;
-        text-align: start;
-        margin-right: 90px;
+        text-align: center;
+    }
+    .texto{
+        width: 200px;
     }
 }
